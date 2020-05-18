@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03581A572C13E481551BA11B /* Pods_Flik_TaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0E0F59746B9B477738BAAC /* Pods_Flik_TaskTests.framework */; };
+		2C197470244B2B2C005C8141 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C19746F244B2B2C005C8141 /* AppDelegate.swift */; };
+		2C197475244B2B2C005C8141 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C197473244B2B2C005C8141 /* Main.storyboard */; };
+		2C197477244B2B2C005C8141 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C197476244B2B2C005C8141 /* Assets.xcassets */; };
+		2C197485244B2B2C005C8141 /* Flik_TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C197484244B2B2C005C8141 /* Flik_TaskTests.swift */; };
+		2C197490244B2B2C005C8141 /* Flik_TaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C19748F244B2B2C005C8141 /* Flik_TaskUITests.swift */; };
+		2C1974A1244B3051005C8141 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C19749D244B3051005C8141 /* BaseViewController.swift */; };
+		2C1974A2244B3051005C8141 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C19749E244B3051005C8141 /* HomeVC.swift */; };
+		2C1974A3244B3051005C8141 /* PlayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C19749F244B3051005C8141 /* PlayVC.swift */; };
+		2C1974A4244B3051005C8141 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1974A0244B3051005C8141 /* MenuViewController.swift */; };
+		2C1974A8244B319D005C8141 /* MyProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C1974A7244B319C005C8141 /* MyProfileVC.swift */; };
+		2C7B891724543ECA00472285 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2C7B891624543ECA00472285 /* GoogleService-Info.plist */; };
+		2C7B89192454622800472285 /* loginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7B89182454622800472285 /* loginVC.swift */; };
+		2C949CBE245B1DA700FB92E8 /* phoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C949CBD245B1DA700FB92E8 /* phoneViewController.swift */; };
+		2CBB83DE2465A12A0043AA0B /* searchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CBB83DD2465A12A0043AA0B /* searchTableViewCell.swift */; };
+		2CC4E548244DF11E002F46C5 /* BecomePSViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CC4E547244DF11E002F46C5 /* BecomePSViewController.swift */; };
+		2CCFD7242458648D005AD191 /* searchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CCFD7232458648D005AD191 /* searchVC.swift */; };
+		2CD61C73244C979200396EBD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2CD61C72244C979200396EBD /* LaunchScreen.xib */; };
+		2CD61C75244C9E9400396EBD /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD61C74244C9E9400396EBD /* CollectionViewCell.swift */; };
+		2CE5DEF8245D4FEE008AF9A5 /* FlikTask.png in Resources */ = {isa = PBXBuildFile; fileRef = 2CE5DEF7245D4FEE008AF9A5 /* FlikTask.png */; };
+		2CF5DF67246712A200378C20 /* serviceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CF5DF66246712A200378C20 /* serviceTableViewCell.swift */; };
+		47BFF89A2345E6C6CFD8B086 /* Pods_Flik_TaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A455C666F7453DFB7027EDB0 /* Pods_Flik_TaskUITests.framework */; };
+		AA7339AAFE295CDD2BB42C05 /* Pods_Flik_Task.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FFFC273140A75B75087AA00E /* Pods_Flik_Task.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C197481244B2B2C005C8141 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C197464244B2B2C005C8141 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C19746B244B2B2C005C8141;
+			remoteInfo = "Flik Task";
+		};
+		2C19748C244B2B2C005C8141 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C197464244B2B2C005C8141 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C19746B244B2B2C005C8141;
+			remoteInfo = "Flik Task";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		049DD90755F60AE2E3A3DBE9 /* Pods-Flik TaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flik TaskUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flik TaskUITests/Pods-Flik TaskUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2C19746C244B2B2C005C8141 /* Flik Task.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flik Task.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C19746F244B2B2C005C8141 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2C197474244B2B2C005C8141 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C197476244B2B2C005C8141 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C19747B244B2B2C005C8141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C197480244B2B2C005C8141 /* Flik TaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flik TaskTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C197484244B2B2C005C8141 /* Flik_TaskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flik_TaskTests.swift; sourceTree = "<group>"; };
+		2C197486244B2B2C005C8141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C19748B244B2B2C005C8141 /* Flik TaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Flik TaskUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C19748F244B2B2C005C8141 /* Flik_TaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flik_TaskUITests.swift; sourceTree = "<group>"; };
+		2C197491244B2B2C005C8141 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C19749D244B3051005C8141 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		2C19749E244B3051005C8141 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		2C19749F244B3051005C8141 /* PlayVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayVC.swift; sourceTree = "<group>"; };
+		2C1974A0244B3051005C8141 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		2C1974A7244B319C005C8141 /* MyProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyProfileVC.swift; sourceTree = "<group>"; };
+		2C7B891624543ECA00472285 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2C7B89182454622800472285 /* loginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = loginVC.swift; sourceTree = "<group>"; };
+		2C949CBD245B1DA700FB92E8 /* phoneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = phoneViewController.swift; sourceTree = "<group>"; };
+		2CBB83DD2465A12A0043AA0B /* searchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = searchTableViewCell.swift; sourceTree = "<group>"; };
+		2CC4E547244DF11E002F46C5 /* BecomePSViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BecomePSViewController.swift; path = ../BecomePSViewController.swift; sourceTree = "<group>"; };
+		2CCFD7232458648D005AD191 /* searchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchVC.swift; sourceTree = "<group>"; };
+		2CD61C72244C979200396EBD /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		2CD61C74244C9E9400396EBD /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		2CE5DEF7245D4FEE008AF9A5 /* FlikTask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FlikTask.png; sourceTree = "<group>"; };
+		2CF5DF66246712A200378C20 /* serviceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = serviceTableViewCell.swift; sourceTree = "<group>"; };
+		76E66462F65C07A7153EACFB /* Pods-Flik Task.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flik Task.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flik Task/Pods-Flik Task.debug.xcconfig"; sourceTree = "<group>"; };
+		87E3CFFD70099292FAFA9FA0 /* Pods-Flik TaskTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flik TaskTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flik TaskTests/Pods-Flik TaskTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A455C666F7453DFB7027EDB0 /* Pods_Flik_TaskUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flik_TaskUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A92AF22C4D9891C7A261338E /* Pods-Flik TaskTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flik TaskTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flik TaskTests/Pods-Flik TaskTests.release.xcconfig"; sourceTree = "<group>"; };
+		B33CBD9CA730567B6AA513D3 /* Pods-Flik TaskUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flik TaskUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flik TaskUITests/Pods-Flik TaskUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E6E1BDA7B3355656A78D96D7 /* Pods-Flik Task.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flik Task.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flik Task/Pods-Flik Task.release.xcconfig"; sourceTree = "<group>"; };
+		FD0E0F59746B9B477738BAAC /* Pods_Flik_TaskTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flik_TaskTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFFC273140A75B75087AA00E /* Pods_Flik_Task.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flik_Task.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C197469244B2B2C005C8141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA7339AAFE295CDD2BB42C05 /* Pods_Flik_Task.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C19747D244B2B2C005C8141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03581A572C13E481551BA11B /* Pods_Flik_TaskTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C197488244B2B2C005C8141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47BFF89A2345E6C6CFD8B086 /* Pods_Flik_TaskUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C197463244B2B2C005C8141 = {
+			isa = PBXGroup;
+			children = (
+				2C19746E244B2B2C005C8141 /* Flik Task */,
+				2C197483244B2B2C005C8141 /* Flik TaskTests */,
+				2C19748E244B2B2C005C8141 /* Flik TaskUITests */,
+				2C19746D244B2B2C005C8141 /* Products */,
+				47A886A8CD3C52AE36732385 /* Pods */,
+				5A205EC5FCFC2759E6C5AAA4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2C19746D244B2B2C005C8141 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C19746C244B2B2C005C8141 /* Flik Task.app */,
+				2C197480244B2B2C005C8141 /* Flik TaskTests.xctest */,
+				2C19748B244B2B2C005C8141 /* Flik TaskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C19746E244B2B2C005C8141 /* Flik Task */ = {
+			isa = PBXGroup;
+			children = (
+				2CC4E547244DF11E002F46C5 /* BecomePSViewController.swift */,
+				2C949CBD245B1DA700FB92E8 /* phoneViewController.swift */,
+				2C19746F244B2B2C005C8141 /* AppDelegate.swift */,
+				2C19749D244B3051005C8141 /* BaseViewController.swift */,
+				2C19749E244B3051005C8141 /* HomeVC.swift */,
+				2CD61C74244C9E9400396EBD /* CollectionViewCell.swift */,
+				2C1974A0244B3051005C8141 /* MenuViewController.swift */,
+				2C19749F244B3051005C8141 /* PlayVC.swift */,
+				2C1974A7244B319C005C8141 /* MyProfileVC.swift */,
+				2C197473244B2B2C005C8141 /* Main.storyboard */,
+				2CF5DF66246712A200378C20 /* serviceTableViewCell.swift */,
+				2CCFD7232458648D005AD191 /* searchVC.swift */,
+				2CBB83DD2465A12A0043AA0B /* searchTableViewCell.swift */,
+				2C7B89182454622800472285 /* loginVC.swift */,
+				2C197476244B2B2C005C8141 /* Assets.xcassets */,
+				2CD61C72244C979200396EBD /* LaunchScreen.xib */,
+				2C19747B244B2B2C005C8141 /* Info.plist */,
+				2CE5DEF7245D4FEE008AF9A5 /* FlikTask.png */,
+				2C7B891624543ECA00472285 /* GoogleService-Info.plist */,
+			);
+			path = "Flik Task";
+			sourceTree = "<group>";
+		};
+		2C197483244B2B2C005C8141 /* Flik TaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C197484244B2B2C005C8141 /* Flik_TaskTests.swift */,
+				2C197486244B2B2C005C8141 /* Info.plist */,
+			);
+			path = "Flik TaskTests";
+			sourceTree = "<group>";
+		};
+		2C19748E244B2B2C005C8141 /* Flik TaskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C19748F244B2B2C005C8141 /* Flik_TaskUITests.swift */,
+				2C197491244B2B2C005C8141 /* Info.plist */,
+			);
+			path = "Flik TaskUITests";
+			sourceTree = "<group>";
+		};
+		47A886A8CD3C52AE36732385 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76E66462F65C07A7153EACFB /* Pods-Flik Task.debug.xcconfig */,
+				E6E1BDA7B3355656A78D96D7 /* Pods-Flik Task.release.xcconfig */,
+				87E3CFFD70099292FAFA9FA0 /* Pods-Flik TaskTests.debug.xcconfig */,
+				A92AF22C4D9891C7A261338E /* Pods-Flik TaskTests.release.xcconfig */,
+				B33CBD9CA730567B6AA513D3 /* Pods-Flik TaskUITests.debug.xcconfig */,
+				049DD90755F60AE2E3A3DBE9 /* Pods-Flik TaskUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5A205EC5FCFC2759E6C5AAA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FFFC273140A75B75087AA00E /* Pods_Flik_Task.framework */,
+				FD0E0F59746B9B477738BAAC /* Pods_Flik_TaskTests.framework */,
+				A455C666F7453DFB7027EDB0 /* Pods_Flik_TaskUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C19746B244B2B2C005C8141 /* Flik Task */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C197494244B2B2C005C8141 /* Build configuration list for PBXNativeTarget "Flik Task" */;
+			buildPhases = (
+				39BE899D06196112BC4687B3 /* [CP] Check Pods Manifest.lock */,
+				2C197468244B2B2C005C8141 /* Sources */,
+				2C197469244B2B2C005C8141 /* Frameworks */,
+				2C19746A244B2B2C005C8141 /* Resources */,
+				712E0203233A15E87BAAD759 /* [CP] Embed Pods Frameworks */,
+				E7BFC68ACBB4B65A74592A80 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Flik Task";
+			productName = "Flik Task";
+			productReference = 2C19746C244B2B2C005C8141 /* Flik Task.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C19747F244B2B2C005C8141 /* Flik TaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C197497244B2B2C005C8141 /* Build configuration list for PBXNativeTarget "Flik TaskTests" */;
+			buildPhases = (
+				50CF7A49FE4FAE8E48933BB1 /* [CP] Check Pods Manifest.lock */,
+				2C19747C244B2B2C005C8141 /* Sources */,
+				2C19747D244B2B2C005C8141 /* Frameworks */,
+				2C19747E244B2B2C005C8141 /* Resources */,
+				0EB424BB91F0C7604D1F2DDE /* [CP] Embed Pods Frameworks */,
+				207DDA25E01AEB7AF3F3C740 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C197482244B2B2C005C8141 /* PBXTargetDependency */,
+			);
+			name = "Flik TaskTests";
+			productName = "Flik TaskTests";
+			productReference = 2C197480244B2B2C005C8141 /* Flik TaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C19748A244B2B2C005C8141 /* Flik TaskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C19749A244B2B2C005C8141 /* Build configuration list for PBXNativeTarget "Flik TaskUITests" */;
+			buildPhases = (
+				EF269DF1643C48FB7A1855A9 /* [CP] Check Pods Manifest.lock */,
+				2C197487244B2B2C005C8141 /* Sources */,
+				2C197488244B2B2C005C8141 /* Frameworks */,
+				2C197489244B2B2C005C8141 /* Resources */,
+				1D702C53B4AFA626DE10F7A1 /* [CP] Embed Pods Frameworks */,
+				01390CD4A2B8A99A5D508699 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C19748D244B2B2C005C8141 /* PBXTargetDependency */,
+			);
+			name = "Flik TaskUITests";
+			productName = "Flik TaskUITests";
+			productReference = 2C19748B244B2B2C005C8141 /* Flik TaskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C197464244B2B2C005C8141 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = vimal;
+				TargetAttributes = {
+					2C19746B244B2B2C005C8141 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					2C19747F244B2B2C005C8141 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2C19746B244B2B2C005C8141;
+					};
+					2C19748A244B2B2C005C8141 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2C19746B244B2B2C005C8141;
+					};
+				};
+			};
+			buildConfigurationList = 2C197467244B2B2C005C8141 /* Build configuration list for PBXProject "Flik Task" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C197463244B2B2C005C8141;
+			productRefGroup = 2C19746D244B2B2C005C8141 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C19746B244B2B2C005C8141 /* Flik Task */,
+				2C19747F244B2B2C005C8141 /* Flik TaskTests */,
+				2C19748A244B2B2C005C8141 /* Flik TaskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C19746A244B2B2C005C8141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CD61C73244C979200396EBD /* LaunchScreen.xib in Resources */,
+				2CE5DEF8245D4FEE008AF9A5 /* FlikTask.png in Resources */,
+				2C197477244B2B2C005C8141 /* Assets.xcassets in Resources */,
+				2C7B891724543ECA00472285 /* GoogleService-Info.plist in Resources */,
+				2C197475244B2B2C005C8141 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C19747E244B2B2C005C8141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C197489244B2B2C005C8141 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01390CD4A2B8A99A5D508699 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flik TaskUITests/Pods-Flik TaskUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0EB424BB91F0C7604D1F2DDE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flik TaskTests/Pods-Flik TaskTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1D702C53B4AFA626DE10F7A1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flik TaskUITests/Pods-Flik TaskUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		207DDA25E01AEB7AF3F3C740 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flik TaskTests/Pods-Flik TaskTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39BE899D06196112BC4687B3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		50CF7A49FE4FAE8E48933BB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		712E0203233A15E87BAAD759 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flik Task/Pods-Flik Task-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7BFC68ACBB4B65A74592A80 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flik Task/Pods-Flik Task-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF269DF1643C48FB7A1855A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C197468244B2B2C005C8141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C1974A4244B3051005C8141 /* MenuViewController.swift in Sources */,
+				2C1974A2244B3051005C8141 /* HomeVC.swift in Sources */,
+				2CD61C75244C9E9400396EBD /* CollectionViewCell.swift in Sources */,
+				2C1974A3244B3051005C8141 /* PlayVC.swift in Sources */,
+				2C1974A8244B319D005C8141 /* MyProfileVC.swift in Sources */,
+				2CF5DF67246712A200378C20 /* serviceTableViewCell.swift in Sources */,
+				2CBB83DE2465A12A0043AA0B /* searchTableViewCell.swift in Sources */,
+				2CC4E548244DF11E002F46C5 /* BecomePSViewController.swift in Sources */,
+				2CCFD7242458648D005AD191 /* searchVC.swift in Sources */,
+				2C7B89192454622800472285 /* loginVC.swift in Sources */,
+				2C197470244B2B2C005C8141 /* AppDelegate.swift in Sources */,
+				2C1974A1244B3051005C8141 /* BaseViewController.swift in Sources */,
+				2C949CBE245B1DA700FB92E8 /* phoneViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C19747C244B2B2C005C8141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C197485244B2B2C005C8141 /* Flik_TaskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C197487244B2B2C005C8141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C197490244B2B2C005C8141 /* Flik_TaskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C197482244B2B2C005C8141 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C19746B244B2B2C005C8141 /* Flik Task */;
+			targetProxy = 2C197481244B2B2C005C8141 /* PBXContainerItemProxy */;
+		};
+		2C19748D244B2B2C005C8141 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C19746B244B2B2C005C8141 /* Flik Task */;
+			targetProxy = 2C19748C244B2B2C005C8141 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2C197473244B2B2C005C8141 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C197474244B2B2C005C8141 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C197492244B2B2C005C8141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C197493244B2B2C005C8141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C197495244B2B2C005C8141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76E66462F65C07A7153EACFB /* Pods-Flik Task.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Flik Task/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "maniyar.Flik-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C197496244B2B2C005C8141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6E1BDA7B3355656A78D96D7 /* Pods-Flik Task.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Flik Task/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "maniyar.Flik-Task";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2C197498244B2B2C005C8141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87E3CFFD70099292FAFA9FA0 /* Pods-Flik TaskTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Flik TaskTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "maniyar.Flik-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flik Task.app/Flik Task";
+			};
+			name = Debug;
+		};
+		2C197499244B2B2C005C8141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A92AF22C4D9891C7A261338E /* Pods-Flik TaskTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Flik TaskTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "maniyar.Flik-TaskTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flik Task.app/Flik Task";
+			};
+			name = Release;
+		};
+		2C19749B244B2B2C005C8141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B33CBD9CA730567B6AA513D3 /* Pods-Flik TaskUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Flik TaskUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "maniyar.Flik-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Flik Task";
+			};
+			name = Debug;
+		};
+		2C19749C244B2B2C005C8141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 049DD90755F60AE2E3A3DBE9 /* Pods-Flik TaskUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Flik TaskUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "maniyar.Flik-TaskUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Flik Task";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C197467244B2B2C005C8141 /* Build configuration list for PBXProject "Flik Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C197492244B2B2C005C8141 /* Debug */,
+				2C197493244B2B2C005C8141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C197494244B2B2C005C8141 /* Build configuration list for PBXNativeTarget "Flik Task" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C197495244B2B2C005C8141 /* Debug */,
+				2C197496244B2B2C005C8141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C197497244B2B2C005C8141 /* Build configuration list for PBXNativeTarget "Flik TaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C197498244B2B2C005C8141 /* Debug */,
+				2C197499244B2B2C005C8141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C19749A244B2B2C005C8141 /* Build configuration list for PBXNativeTarget "Flik TaskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C19749B244B2B2C005C8141 /* Debug */,
+				2C19749C244B2B2C005C8141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C197464244B2B2C005C8141 /* Project object */;
+}
